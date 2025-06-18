@@ -80,9 +80,10 @@ header ul a:hover{
 .box-icons{
     display: flex;
     gap: 40px;
+    margin-right: 20px;
 }
 
-.box-icons p{
+.box-icons a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,7 +96,7 @@ header ul a:hover{
     transition: 0.5s;
 }
 
-.box-icons p:hover{
+.box-icons a:hover{
     background-color: #72a1de;
     color: black;
     box-shadow: 0 0 15px #72a1de;
