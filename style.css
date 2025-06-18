@@ -102,8 +102,19 @@ header ul a:hover{
     box-shadow: 0 0 15px #72a1de;
 }
 
+.blackhole-box{
+    position: absolute;
+    top:0;
+    width: 100%;
+    justify-content: center;
+    mix-blend-mode: lighten;
 
+}
 
+.blackhole-box video{
+    width: 100%;
+    margin-top: -23.5%;
+}
 
 
 
