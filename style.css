@@ -319,9 +319,30 @@ header ul a:hover{
     object-fit: cover;
     mix-blend-mode: lighten;
 }
+.card button{
+    color:white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #2200493d;
+    box-shadow: 0 0 5px #727fde86;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+
+}
 
 
 
+.card button:hover{
+    box-shadow: 0 0 15px lightgray;
+    opacity: 0.7;
+}
+
+.card:hover{
+    box-shadow: 0 0 15px rgb(211, 211, 211);
+}
 
 
 
