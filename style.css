@@ -291,7 +291,13 @@ header ul a:hover{
   }
 
   .card h1{
-    
+     position: absolute;
+     margin: 0;
+     bottom: 40%;
+     left: 5%;
+     font-size: 25px;
+     z-index: 1;
+     color: lightgray;
   }
 
 
