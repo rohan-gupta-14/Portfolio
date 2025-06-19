@@ -312,6 +312,13 @@ header ul a:hover{
 
   }
 
+.card video{
+    margin-top: 10%;
+    width: 70%;
+    height: 50%;
+    object-fit: cover;
+    mix-blend-mode: lighten;
+}
 
 
 
