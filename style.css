@@ -270,7 +270,19 @@ header ul a:hover{
      margin-top: 30px;
   }
 
-
+  .card{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    position: relative;
+    width: auto;
+    height: 40vh;
+    overflow: hidden;
+    border: 1px solid gray;
+    background-color: #080020b7;
+    border-radius: 20px;
+    transition: 0.5s;
+  }
 
 
 
