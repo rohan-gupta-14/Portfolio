@@ -272,7 +272,9 @@ header ul a:hover{
   }
 
   .card{
-   
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
     position: relative;
     width: auto;
     height: 40vh;
