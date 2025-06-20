@@ -276,12 +276,7 @@ header ul a:hover{
     align-items:flex-start;
     justify-content: center;
     position: relative;
-    width: auto;
-    height: 40vh;
-    overflow: hidden;
-    border: 1px solid gray;
-    background-color: #080020b7;
-    border-radius: 20px;
+   
     transition: 0.5s;
   }
 
