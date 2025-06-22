@@ -482,7 +482,12 @@ header ul a:hover{
 }
 
 
-
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
 
 
 
