@@ -489,9 +489,19 @@ header ul a:hover{
     position: relative;
 }
 
+.skills-box{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
 
+}
 
-
+.skills-image{
+    
+}
 
 
 
