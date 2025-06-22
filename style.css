@@ -527,7 +527,16 @@ header ul a:hover{
     max-width: 300px;
 }
 
+.skills-box h1{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
 
+}
+
+.skills-box p{
+    line-height: 24px;
+}
 
 
 
