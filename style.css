@@ -467,7 +467,10 @@ header ul a:hover{
      margin-right: 10px;
 }
 
-
+.project-info button:hover{
+    opacity: 0.8;
+    box-shadow: 0 0 15px #72a1de81;
+}
 
 .project-imgbox .hover-sign{
     position: absolute;
