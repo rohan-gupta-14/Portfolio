@@ -598,6 +598,11 @@ header ul a:hover{
 }
 
 
+.contact-section h1{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
 
 
 @media (max-aspect-ratio: 16/9){
