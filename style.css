@@ -611,6 +611,12 @@ header ul a:hover{
     gap: 25px;
 }
 
+.social-box a{
+    color: lightgray;
+    text-decoration: none;
+    font-size: 20px;
+    text-wrap: nowrap;
+}
 
 @media (max-aspect-ratio: 16/9){
     .back-vid{
