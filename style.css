@@ -629,6 +629,21 @@ header ul a:hover{
     margin-top: 40px;
 }
 
+.contact-box p{
+    max-width: 400px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+} 
+
+
+
+
+
+
+
+
+
+
 @media (max-aspect-ratio: 16/9){
     .back-vid{
         width: auto;
