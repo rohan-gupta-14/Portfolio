@@ -635,7 +635,16 @@ header ul a:hover{
     margin-bottom: 5px;
 } 
 
-
+.contact-box input{
+    padding: 7.5px 30px;
+    background-color: lightgray;
+    width: 80%;
+    height: 25px;
+    border: none;
+    outline : none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 
 
 
