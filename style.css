@@ -659,6 +659,10 @@ header ul a:hover{
 }
 
 
+.contact-box button:hover{
+    opacity: 0.8;
+    box-shadow: 0 0 15px #72a1de81;
+}
 
 
 
