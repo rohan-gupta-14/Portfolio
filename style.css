@@ -618,6 +618,17 @@ header ul a:hover{
     text-wrap: nowrap;
 }
 
+.social-box i{
+    color: #7668ff;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.social-icons a i{
+    color: white;
+    margin-top: 40px;
+}
+
 @media (max-aspect-ratio: 16/9){
     .back-vid{
         width: auto;
