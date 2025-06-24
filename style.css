@@ -4,6 +4,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: lightgray;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 .container{
     position: relative;
     width: 100%;
@@ -675,6 +680,34 @@ header ul a:hover{
     background-color: rgba(255, 255, 255, 0.121);
     z-index: 999;
     padding: 0 3rem;
+}
+
+.footer-icons{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-right: 20px;
+    font-size: 32px;
+    
+}
+
+.autoBlur{
+    animation: autoBlurAnimation linear both;
+    animation-timeline: view();
+
+}
+@keyframes autoBlurAnimation{
+    0%{
+        filter: blur(40px);
+    }
+    35%,65%{
+        filter: blur(0);
+        opacity: 1;
+    }
+    100%{
+        filter: blur(40px);
+        opacity: 0;
+    }
 }
 
 
