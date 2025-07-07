@@ -197,18 +197,7 @@ header ul a:hover{
     }
 }
 
-.hero-vid-box{
-    position: absolute;
-    right: 3%;
-    
-}
 
-.hero-vid-box video{
-
-   height: 80vh;
-    max-height: 100%;
-    mix-blend-mode: lighten;
-}
 
 .scroll-down {
     height: 50px;
@@ -440,6 +429,7 @@ header ul a:hover{
     justify-content: center;
     width: 60%;
     
+    
 }
 
 .project-info h1{
@@ -470,6 +460,7 @@ header ul a:hover{
     box-shadow: 0 0 5px #72a1de81;
     cursor: pointer;
     transition: 0.3s;
+    margin-bottom: 20%;
 }
 
 .project-info i{
@@ -523,6 +514,7 @@ header ul a:hover{
     align-items: start;
     top: 25%;
     left:5%;
+    
     max-width: 300px;
 }
 
@@ -653,6 +645,21 @@ header ul a:hover{
     outline : none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.contact-box textarea{
+    padding: 7.5px 30px;
+    background-color: lightgray;
+    width: 80%;
+    height: 25px;
+    border: none;
+    outline : none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .contact-box button{
@@ -754,7 +761,7 @@ header ul a:hover{
     transition: 0.5s;
 }
 
-/* Sidebar Open ANimation */
+
 .sidebar.open-sidebar{
     animation: openSideBarAnimation 1.5s forwards;
 }
@@ -1022,10 +1029,7 @@ header ul a:hover{
 
 @media screen and (max-width: 480px) {
 
-    .hero .hero-video-box {
-        display: none;
-        
-    }
+    
 
     .blackhole-box {
         overflow: hidden;
