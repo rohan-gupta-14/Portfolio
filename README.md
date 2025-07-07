@@ -5,4 +5,4 @@ HTML
 CSS
 JavaScript
 RestApi -> Fromspree
-deployed on vercel -> 
+Deployed on vercel -> 
